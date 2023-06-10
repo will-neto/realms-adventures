@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{19BC942F-703A-4991-9B8A-1FC06C202D28}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Characters", "Characters", "{5E0361A1-A234-4B49-938B-5BD6B2B58BB3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Characters.Domain", "sources\services\characters\Characters.Domain\Characters.Domain.csproj", "{5FD91968-0F33-481D-A8AA-2A68451C2B15}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Building Blocks", "Building Blocks", "{B7D6EBE8-125E-4828-AFD5-FC6A766DA031}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.DomainDrivenDesign", "sources\common\Common.DomainDrivenDesign\Common.DomainDrivenDesign.csproj", "{3813E62D-CABC-49D9-A626-177101544403}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5FD91968-0F33-481D-A8AA-2A68451C2B15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FD91968-0F33-481D-A8AA-2A68451C2B15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FD91968-0F33-481D-A8AA-2A68451C2B15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FD91968-0F33-481D-A8AA-2A68451C2B15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3813E62D-CABC-49D9-A626-177101544403}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3813E62D-CABC-49D9-A626-177101544403}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3813E62D-CABC-49D9-A626-177101544403}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3813E62D-CABC-49D9-A626-177101544403}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5E0361A1-A234-4B49-938B-5BD6B2B58BB3} = {19BC942F-703A-4991-9B8A-1FC06C202D28}
+		{5FD91968-0F33-481D-A8AA-2A68451C2B15} = {5E0361A1-A234-4B49-938B-5BD6B2B58BB3}
+		{3813E62D-CABC-49D9-A626-177101544403} = {B7D6EBE8-125E-4828-AFD5-FC6A766DA031}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CE613273-3559-4322-8C24-30FC037425CC}
+	EndGlobalSection
+EndGlobal
