@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="7.0.1" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="8.0.0" />
+    <PackageReference Include="MediatR.Extensions.Autofac.DependencyInjection" Version="11.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\common\Common.CQRS\Common.CQRS.csproj" />
+    <ProjectReference Include="..\..\..\common\Common.Databases.MongoDb\Common.Databases.MongoDb.csproj" />
+    <ProjectReference Include="..\Characters.Domain\Characters.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
