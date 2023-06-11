@@ -4,5 +4,5 @@ namespace Characters.Domain.Aggregates;
 
 public abstract class Character : Entity, IAggregateRoot
 {
-    public string Name { get; set; }
+    public string Name { get; set; } = null!;
 }

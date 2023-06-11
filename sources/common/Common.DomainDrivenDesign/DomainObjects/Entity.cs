@@ -3,6 +3,8 @@
 public class Entity
 {
     public Guid Id { get; set; }
+    public bool IsDeleted { get; set; }
+
     public override bool Equals(object? obj)
     {
         var compareTo = obj as Entity;
@@ -38,4 +40,5 @@ public class Entity
     {
         return $"{GetType().Name} [Id={Id}]";
     }
+
 }
